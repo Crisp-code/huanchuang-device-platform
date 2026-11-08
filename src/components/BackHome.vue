@@ -10,21 +10,21 @@
   display: flex;
   width: fit-content;
   align-items: center;
-  gap: 8px;
   margin-bottom: 24px;
-  padding: 8px 16px;
+  padding: 9px 20px;
   font-size: 14px;
-  color: var(--text-muted);
-  border: 1px solid var(--border);
+  font-weight: 600;
+  color: #fff;
+  border: 1px solid var(--blue-light);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.02);
-  transition: color 0.2s, border-color 0.2s, background 0.2s, transform 0.2s;
+  background: var(--blue);
+  box-shadow: 0 0 14px var(--accent-glow);
+  transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
 }
 
 .back-home:hover {
-  color: var(--blue-light);
-  border-color: var(--blue);
-  background: rgba(37, 99, 235, 0.1);
-  transform: translateX(-2px);
+  background: var(--blue-light);
+  box-shadow: 0 4px 20px var(--accent-glow);
+  transform: translateY(-1px);
 }
 </style>

@@ -1,5 +1,6 @@
 <script setup>
 import { ref, computed } from 'vue'
+import BackHome from '../components/BackHome.vue'
 
 const manuals = [
   { id: 1, name: '三相异步电动机', model: 'Y2-160M-4', category: '动力设备', sections: ['安装说明', '运行参数', '维护保养', '故障处理'] },
@@ -29,6 +30,7 @@ const filtered = computed(() => {
 
 <template>
   <div class="page">
+    <BackHome />
     <h1>设备手册查询</h1>
     <p>搜索设备名称或型号，快速定位设备手册内容。</p>
 

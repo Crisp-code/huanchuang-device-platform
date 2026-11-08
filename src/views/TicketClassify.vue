@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue'
+import BackHome from '../components/BackHome.vue'
 
 const input = ref('')
 const result = ref(null)
@@ -59,6 +60,7 @@ const samples = [
 
 <template>
   <div class="page">
+    <BackHome />
     <h1>工单文本分类</h1>
     <p>输入工单描述，系统自动识别故障类型并给出分类结果。</p>
 

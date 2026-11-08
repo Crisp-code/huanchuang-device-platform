@@ -1,4 +1,6 @@
 <script setup>
+import BackHome from '../components/BackHome.vue'
+
 const awards = [
   { year: 2024, title: '全国大学生智能设备创新大赛', level: '国家级一等奖', desc: '基于设备文档的智能问答系统设计与实现' },
   { year: 2024, title: '工业互联网应用挑战赛', level: '省级特等奖', desc: '工单智能分类与工单流转优化方案' },
@@ -17,6 +19,7 @@ const stats = [
 
 <template>
   <div class="page">
+    <BackHome />
     <div class="awards-hero">
       <h1>环创工作室 · 奖项成果</h1>
       <p>以技术创新驱动设备运维智能化，以下是工作室历年获奖成果。</p>

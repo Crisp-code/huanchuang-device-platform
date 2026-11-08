@@ -1,5 +1,6 @@
 <script setup>
 import { ref, nextTick } from 'vue'
+import BackHome from '../components/BackHome.vue'
 
 const messages = ref([
   { role: 'bot', text: '你好！我是环创设备问答助手，可以基于设备文档回答你关于设备的问题。试试问我："电机过热怎么处理？"' },
@@ -51,6 +52,7 @@ function onKey(e) {
 
 <template>
   <div class="page">
+    <BackHome />
     <h1>设备文档问答</h1>
     <p>输入设备相关问题，系统基于文档知识库智能匹配答案。</p>
 

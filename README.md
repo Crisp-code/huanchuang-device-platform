@@ -2,6 +2,15 @@
 
 基于 Vue 3 + Vue Router + Vite 构建的设备运维前端应用，采用蓝黑色调主题。
 
+## 在线访问
+
+| 平台 | 地址 | 说明 |
+|------|------|------|
+| GitHub Pages | https://crisp-code.github.io/huanchuang-device-platform/ | 国内可访问（推荐） |
+| Vercel | https://blue-nav-app.vercel.app | 海外访问，国内可能需代理 |
+
+> 两个平台均已接入自动部署：向 `master` 分支推送代码后会自动构建并更新线上。
+
 ## 功能模块
 
 | 模块 | 路由 | 说明 | 对接状态 |

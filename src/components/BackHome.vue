@@ -2,9 +2,7 @@
 </script>
 
 <template>
-  <router-link to="/" class="back-home">
-    <span class="arrow">←</span> 返回首页
-  </router-link>
+  <router-link to="/" class="back-home">返回首页</router-link>
 </template>
 
 <style scoped>
@@ -28,9 +26,5 @@
   border-color: var(--blue);
   background: rgba(37, 99, 235, 0.1);
   transform: translateX(-2px);
-}
-
-.arrow {
-  font-size: 16px;
 }
 </style>
